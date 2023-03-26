@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    background-color: black;
+}
+div{
+    box-sizing: border-box;
+}
+div.post{
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    margin-top: 40px;
+}
+div.postHeader{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+.fa-html5{
+    padding-top: 5px;
+    width: 5%;
+}
+.names {
+    margin-left: 5px;
+    width: 345px;
+    line-height: 0px;
+}
+div.post img {
+    width: 100% ;
+}
+.postFooter{
+    margin: 15px;
+}
+div.icons{
+    flex-direction: row;
+    margin-top: 15px;
+}
+.fa-xl{
+    padding: 1px;
+}
+.fa-bookmark:before{
+    margin-left: 255px;
+}
+.liked {
+    margin-top: 30px;
+}
+.resume {
+    padding-bottom: 40px;
+}
